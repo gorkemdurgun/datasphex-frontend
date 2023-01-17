@@ -2,6 +2,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { Container, Button, Form } from "react-bootstrap";
 import beelogo from "../../public/beelogo.svg";
+import Link from "next/link";
 
 const Register = () => {
   const [email, setEmail] = useState("");
@@ -38,7 +39,7 @@ const Register = () => {
           </Button>
         </Form>
         <p className="pt-4" >
-          Already have an account? <h6 href="/login">Login</h6>
+          Already have an account? <Link href="/login">Login</Link>
         </p>
       </div>
     </div>

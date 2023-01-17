@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { Container, Button, Form } from "react-bootstrap";
 import beelogo from "../../public/beelogo.svg";
 import { useRouter } from "next/router";
+import Link from "next/link";
 
 const Login = () => {
   const router = useRouter();
@@ -49,7 +50,7 @@ const Login = () => {
           </Button>
         </Form>
         <p className="pt-4">
-          Dont have an account? <h6 href="/register">Register</h6>
+          Dont have an account? <Link href="/register">Register</Link>
         </p>
       </div>
     </div>
