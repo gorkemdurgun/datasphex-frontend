@@ -11,7 +11,7 @@ function SphexNavbar() {
       <Navbar.Brand>Datasphex AI</Navbar.Brand>
       <Navbar.Collapse className="justify-content-end">
         <Navbar.Text>
-          Signed in as: <a>Görkem Durgun</a>
+          Signed in as: <a>Asım Sinan Yüksel</a>
         </Navbar.Text>
         <Button variant="danger" className="ms-2">Çıkış Yap</Button>
       </Navbar.Collapse>
