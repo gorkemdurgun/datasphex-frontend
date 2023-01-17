@@ -38,7 +38,7 @@ const Register = () => {
           </Button>
         </Form>
         <p className="pt-4" >
-          Already have an account? <a href="/login">Login</a>
+          Already have an account? <h6 href="/login">Login</h6>
         </p>
       </div>
     </div>
