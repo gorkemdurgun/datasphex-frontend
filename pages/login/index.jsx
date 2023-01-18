@@ -13,7 +13,7 @@ const Login = () => {
 
   const handleLogin = (e) => {
     e.preventDefault();
-    if (email === "asimsinanyuksel" && password === "123456") {
+    if (email === "admin" && password === "123456") {
       router.push("/dashboard");
     } else {
       alert("Login Failed");
